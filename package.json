@@ -1,0 +1,16 @@
+{
+  "name": "geth-api",
+  "version": "1.0.0",
+  "description": "Backen server that provides interfaces to talk with local ethereum node(s)",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "xie <xie@thebeetoken.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "https://registry.npmjs.org/express/-/express-4.16.2.tgz",
+    "web3": "^1.0.0-beta.23",
+    "zero-config": "^7.1.1"
+  }
+}
